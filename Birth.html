@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Birth Injury Lawyers – Elite Injury Attorneys</title>
+  <style>
+    :root{
+      --brand:#0b2c5f;
+      --accent:#ffca28;
+      --bg:#f6f8ff;
+      --muted:#6b7280;
+      --card:#ffffff;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+      background:var(--bg);
+      color:#111827;
+      -webkit-font-smoothing:antialiased;
+    }
+
+    /* NAVBAR */
+    .navbar{
+      background:var(--brand);
+      color:#fff;
+      padding:16px 28px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      position:sticky;
+      top:0;
+      z-index:100;
+      box-shadow:0 6px 18px rgba(11,44,95,0.12);
+    }
+    .brand{font-weight:700; font-size:20px; letter-spacing:0.2px}
+    .navlinks{display:flex; gap:18px; align-items:center}
+    .navlinks a{color:#fff; text-decoration:none; font-weight:600;}
+    .phone-btn{
+      background:var(--accent);
+      color:#000;
+      padding:9px 14px;
+      border-radius:8px;
+      font-weight:700;
+      text-decoration:none;
+    }
+
+    /* HERO IMAGE (after navbar) */
+    .hero-img{
+      width:100%;
+      height:420px;
+      background:
+        linear-gradient(180deg, rgba(0,0,0,0.28), rgba(0,0,0,0.38)),
+        url('Child.jpg') center/cover no-repeat;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#fff;
+      text-align:center;
+      padding:20px;
+    }
+    .hero-img h1{font-size:34px; margin:0; max-width:1000px; font-weight:800; text-shadow:0 6px 18px rgba(0,0,0,0.45);}
+
+    /* MAIN LAYOUT */
+    .container{max-width:1100px; margin:28px auto; padding:0 20px;}
+    .section{margin-bottom:36px}
+    .title{color:var(--brand); font-size:24px; margin-bottom:10px; font-weight:700}
+    p.lead{font-size:16px; color:var(--muted); line-height:1.7; max-width:900px}
+
+    /* two-column layout */
+    .two-col{display:grid; grid-template-columns:1fr 360px; gap:24px; align-items:start}
+    @media(max-width:880px){ .two-col{ grid-template-columns:1fr } }
+
+    .card{
+      background:var(--card);
+      padding:18px;
+      border-radius:10px;
+      box-shadow:0 6px 18px rgba(12,20,36,0.06);
+    }
+
+    /* features grid */
+    .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px}
+    .feature{
+      background:#fff; padding:14px; border-radius:10px;
+      box-shadow:0 6px 14px rgba(12,20,36,0.05);
+      text-align:left;
+    }
+    .feature h4{margin:8px 0 6px; color:var(--brand); font-size:16px}
+    .feature p{margin:0; color:var(--muted); font-size:14px}
+
+    /* results and testimonials */
+    .results .case{margin-bottom:16px}
+    .case strong{display:block; color:var(--brand); font-size:18px}
+    .testimonials .rev{background:#fff; padding:16px; border-radius:10px; box-shadow:0 6px 16px rgba(12,20,36,0.05); margin-bottom:14px}
+    .rev p{margin:8px 0 0; color:var(--muted)}
+
+    /* CTA */
+    .cta{
+      background:var(--brand); color:#fff; padding:36px; border-radius:12px; text-align:center;
+      box-shadow:0 10px 30px rgba(11,44,95,0.14);
+    }
+    .cta h3{margin:0 0 8px; font-size:22px}
+    .cta p{margin:0 0 18px; color:#e6eefc}
+    .cta .cta-btn{
+      background:var(--accent); color:#081124; padding:12px 20px; border-radius:8px; text-decoration:none; font-weight:800;
+    }
+
+    footer{margin:28px 0 60px; text-align:center; color:var(--muted); font-size:14px}
+
+    /* small helpers */
+    .muted{color:var(--muted)}
+    .kicker{font-size:13px; color:var(--muted); text-transform:uppercase; letter-spacing:1px}
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="brand">New Firm</div>
+    <nav class="navlinks">
+      <a href="practice.html">Practice Areas</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <!-- clickable phone -->
+      <a class="phone-btn" href="tel:+18001234567">📞 Call Now</a>
+    </nav>
+  </header>
+
+  <!-- HERO IMAGE -->
+  <section class="hero-img">
+    <h1>Birth Injury Attorneys — Compassionate support, powerful advocacy</h1>
+  </section>
+
+  <main class="container">
+
+    <!-- Short intro / mission -->
+    <section class="section">
+      <div class="kicker">Our mission</div>
+      <div class="title">We fight for the injured. We treat you like family.</div>
+      <p class="lead">Birth injuries cause deep emotional and financial burdens. Our firm combines medical expertise and legal experience to hold negligent providers accountable and secure the care and compensation your child needs for the long term.</p>
+    </section>
+
+    <!-- two-column: meaning + intake card -->
+    <section class="section two-col">
+      <div>
+        <div class="title">What Birth Injury Law Means</div>
+        <div class="card">
+          <p>Birth injury cases arise when medical professionals fail to provide the accepted standard of care during pregnancy, labor, delivery, or immediately after birth — causing harm to a newborn. Examples include delayed C-sections, improper use of delivery tools, mismanaged fetal distress, and failure to diagnose or treat complications. These claims require careful review of medical records and expert testimony.</p>
+        </div>
+
+        <div style="height:18px"></div>
+
+        <div class="title">How Birth Injury Cases Are Investigated</div>
+        <div class="card">
+          <ul style="padding-left:18px; line-height:1.7;">
+            <li>Detailed medical-record review (prenatal through postpartum)</li>
+            <li>Consultation with pediatric neurologists, neonatologists, and OB/GYN experts</li>
+            <li>Analysis of fetal monitoring strips, delivery notes, and medication logs</li>
+            <li>Evaluation of hospital policies, staffing, and timeline of events</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- sticky intake / CTA card -->
+      <aside class="card" style="position:sticky; top:96px;">
+        <div style="font-size:14px; color:var(--muted); margin-bottom:8px">Free Case Evaluation</div>
+        <h3 style="margin:0 0 10px; color:var(--brand)">No Fees Unless We Win</h3>
+        <p style="color:var(--muted); margin-bottom:14px">Submit your case or call for a confidential review with a birth-injury attorney.</p>
+        <a href="tel:+18001234567" class="phone-btn" style="display:inline-block; margin-bottom:10px">📞 Call Office</a>
+        <br />
+        <a href="contact.html" style="display:inline-block; margin-top:10px; padding:10px 14px; background:var(--brand); color:#fff; border-radius:8px; text-decoration:none; font-weight:700">Request Free Consultation</a>
+        <hr style="margin:16px 0; border:none; border-top:1px solid #eef2ff">
+        <div style="font-size:13px; color:var(--muted)">Office Hours<br>Mon–Sat: 9am – 7pm</div>
+      </aside>
+    </section>
+
+    <!-- Common types -->
+    <section class="section">
+      <div class="title">Common Birth Injury Cases We Handle</div>
+      <div class="grid">
+        <div class="feature">
+          <h4>Cerebral Palsy (CP)</h4>
+          <p>Often caused by oxygen deprivation (hypoxia) during delivery, requiring long-term care and therapy.</p>
+        </div>
+        <div class="feature">
+          <h4>Brachial Plexus / Erb's Palsy</h4>
+          <p>Nerve injuries from excessive traction during delivery (shoulder dystocia).</p>
+        </div>
+        <div class="feature">
+          <h4>Hypoxic-Ischemic Encephalopathy (HIE)</h4>
+          <p>Severe brain injury from inadequate oxygen or blood flow to the brain.</p>
+        </div>
+        <div class="feature">
+          <h4>Birth Fractures & Nerve Damage</h4>
+          <p>Broken bones or nerve injuries from mishandled delivery tools (forceps, vacuum).</p>
+        </div>
+        <div class="feature">
+          <h4>Failure to Diagnose / Treat</h4>
+          <p>Missed infections, unmanaged maternal conditions, or delayed C-sections that lead to harm.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- What clients can expect -->
+    <section class="section">
+      <div class="title">What Families Can Expect</div>
+      <div class="card">
+        <ul class="list" style="padding-left:18px; line-height:1.75;">
+          <li><strong>Compassionate intake:</strong> private, family-centered case review.</li>
+          <li><strong>Medical experts:</strong> we retain top neonatologists and pediatric neurologists.</li>
+          <li><strong>Comprehensive damages:</strong> medical costs, future care, therapy, adaptive equipment, and loss of quality of life.</li>
+          <li><strong>Transparent communication:</strong> regular updates and clear explanations of legal options.</li>
+          <li><strong>No upfront fees:</strong> contingency representation — you pay only if we recover compensation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Case results -->
+    <section class="section results">
+      <div class="title">Selected Case Results</div>
+      <div class="card">
+        <div class="case"><strong>$3.2 Million</strong> — Cerebral palsy case due to delayed emergency C-section.</div>
+        <div class="case"><strong>$2.1 Million</strong> — Brachial plexus (Erb’s palsy) settlement after forceps injury.</div>
+        <div class="case"><strong>$1.75 Million</strong> — Neonatal brain injury from failure to monitor fetal distress.</div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+      <div class="title">What Our Clients Say</div>
+      <div class="rev card">
+        <strong>Lisa & Mark H.</strong>
+        <p>"After our son's injury we felt lost. This team guided us to the right doctors and fought for the settlement that secured his care."</p>
+      </div>
+      <div class="rev card">
+        <strong>Angela P.</strong>
+        <p>"Compassionate, knowledgeable, and relentless. They treated our family like their own and delivered results."</p>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="cta">
+        <h3>Facing a birth injury? Get a free, confidential case review.</h3>
+        <p>Expert medical investigation • No fees unless we win • 24/7 availability</p>
+        <a class="cta-btn" href="contact.html">Request Free Consultation</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2025 New Firm — Birth Injury & Medical Negligence Representation • Call 1-800-123-4567
+  </footer>
+
+</body>
+</html>

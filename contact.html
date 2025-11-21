@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Law Firm</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        header {
+            background: #0a2342;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+
+        .contact-box {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        form label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        form input, form select, form textarea {
+            width: 100%;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #bbb;
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+        form textarea {
+            height: 120px;
+        }
+        form button {
+            background: #0a2342;
+            color: #fff;
+            padding: 14px;
+            width: 100%;
+            border: none;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        form button:hover {
+            background: #133c74;
+        }
+
+        .info-box {
+            background: #eef4ff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .info-box h2 {
+            margin: 0 0 15px 0;
+            color: #0a2342;
+        }
+        .info-item {
+            margin-bottom: 15px;
+        }
+        .info-item strong {
+            color: #0a2342;
+        }
+        .call-btn {
+            display: inline-block;
+            padding: 12px 18px;
+            background: #0a2342;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .location-section {
+            margin-top: 40px;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .location-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .location-grid img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 250px;
+            border: 0;
+            border-radius: 10px;
+        }
+
+        @media(max-width: 800px) {
+            .contact-box, .location-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>Contact Our Law Firm</header>
+
+<div class="container">
+
+    <div class="contact-box">
+        <!-- FORM SECTION -->
+        <form>
+            <label>Name</label>
+            <input type="text" placeholder="Enter your full name" required />
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required />
+
+            <label>Phone</label>
+            <input type="tel" placeholder="Enter your phone number" required />
+
+            <label>Type of Case</label>
+            <select required>
+                <option value="">Select Case Type</option>
+                <option>Car Accident</option>
+                <option>Slip & Fall</option>
+                <option>Dog Bite</option>
+                <option>Medical Malpractice</option>
+                <option>Workers' Compensation</option>
+                <option>Other Personal Injury</option>
+            </select>
+
+            <label>Brief Description</label>
+            <textarea placeholder="Explain what happened..."></textarea>
+
+            <button type="submit">Submit Request</button>
+        </form>
+
+        <!-- INFO SECTION -->
+        <div class="info-box">
+            <h2>Call Us Anytime</h2>
+            <div class="info-item"><strong>Phone:</strong> (123) 456-7890</div>
+            <a class="call-btn" href="tel:1234567890">Click to Call</a><br><br>
+            <div class="info-item"><strong>Email:</strong> help@lawfirm.com</div>
+            <div class="info-item"><strong>Office Hours:</strong> Mon–Sat: 9am–7pm</div>
+            <div class="info-item"><strong>Emergency:</strong> 24/7 Available</div>
+        </div>
+    </div>
+
+    <!-- LOCATION SECTION -->
+    <div class="location-section">
+        <h2>Our Office Location</h2>
+        <div class="location-grid">
+
+            <!-- OFFICE PHOTO -->
+            <img src="Building.jpg" alt="Office Photo" />
+
+            <!-- GOOGLE MAP -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509608!2d144.9537353153169!3d-37.81627937975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ5JzAyLjYiUyAxNDTCsDU3JzE0LjYiRQ!5e0!3m2!1sen!2sin!4v1617237890123" allowfullscreen>
+            </iframe>
+        </div>
+
+        <p style="margin-top: 15px; font-size: 15px;">123 Main Street, Downtown City, Florida 33000</p>
+    </div>
+
+</div>
+
+</body>
+</html>
